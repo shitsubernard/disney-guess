@@ -228,7 +228,7 @@ const characters = [
     isVillain: false,
     firstAppearance: 2009,
     isHuman: true,
-    image: "tiana.jpeg"
+    image: "tiana.png"
   },
   {
     name: "Príncipe Naveen",
@@ -239,7 +239,7 @@ const characters = [
     isVillain: false,
     firstAppearance: 2009,
     isHuman: true,
-    image: "naveen.jpeg"
+    image: "Príncipe Naveen.jpg"
   },
   {
     name: "Mogli",
@@ -250,7 +250,7 @@ const characters = [
     isVillain: false,
     firstAppearance: 1967,
     isHuman: true,
-    image: "mogli.jpeg"
+    image: "mogli.jpg"
   },
   {
     name: "Baloo",
@@ -261,7 +261,7 @@ const characters = [
     isVillain: false,
     firstAppearance: 1967,
     isHuman: false,
-    image: "baloo.jpeg"
+    image: "baloo.jpg"
   },
   {
     name: "Cinderela",
@@ -272,7 +272,7 @@ const characters = [
     isVillain: false,
     firstAppearance: 1950,
     isHuman: true,
-    image: "cinderela.jpeg"
+    image: "cinderela.jpg"
   },
   {
     name: "Fada Madrinha",
@@ -283,7 +283,7 @@ const characters = [
     isVillain: false,
     firstAppearance: 1950,
     isHuman: true,
-    image: "fada_madrinha.jpeg"
+    image: "fada_madrinha.jpg"
   },
   {
     name: "Aladdin",
@@ -451,6 +451,7 @@ const characters = [
     image: "pinoquio.jpeg"
   }
 ];
+
 
 
 
