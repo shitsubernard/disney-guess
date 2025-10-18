@@ -294,7 +294,7 @@ const characters = [
     isVillain: false,
     firstAppearance: 1992,
     isHuman: true,
-    image: "aladdin.jpeg"
+    image: "alladin.jpg"
   },
   {
     name: "Gênio",
@@ -360,7 +360,7 @@ const characters = [
     isVillain: false,
     firstAppearance: 1977,
     isHuman: false,
-    image: "bernardo.jpeg"
+    image: "bernardo.jpg"
   },
   {
     name: "Bianca",
@@ -371,7 +371,7 @@ const characters = [
     isVillain: false,
     firstAppearance: 1977,
     isHuman: false,
-    image: "bianca.jpeg"
+    image: "bianca.jpg"
   },
   {
     name: "Tod",
@@ -451,6 +451,7 @@ const characters = [
     image: "pinoquio.jpeg"
   }
 ];
+
 
 
 
