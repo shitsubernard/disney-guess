@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disney Guess 🏰</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Disney Guess 🏰</h1>
+  <p>Um jogo para adivinhar personagens da Disney!</p>
+
+  <div id="game">
+    <input id="guessInput" type="text" placeholder="Digite o nome do personagem..." autocomplete="off" />
+    <button id="guessButton">Chutar</button>
+    <div id="suggestions" class="suggestions"></div>
+  </div>
+
+  <div id="result"></div>
+  <div id="guessTable"></div>
+
+  <script src="characters.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

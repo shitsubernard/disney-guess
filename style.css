@@ -1,0 +1,155 @@
+/* Fundo da página */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, #1e3a8a, #60a5fa);
+  color: white;
+}
+
+/* Container do input e sugestões */
+#game {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#guessInput {
+  padding: 8px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#guessButton {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #facc15;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+#guessButton:hover {
+  transform: scale(1.05);
+}
+
+/* Caixa de sugestões */
+.suggestions {
+  position: absolute;
+  top: 40px; 
+  left: 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  background: white;
+  display: none; 
+  z-index: 1000;
+  border-radius: 6px;
+  color: black;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.suggestion-item {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: black;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.03);
+}
+
+.suggestion-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+/* Tabela de chutes */
+#guessTable {
+  display: table;
+  margin: 20px auto;
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+
+.table-row {
+  display: table-row;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.table-cell {
+  display: table-cell;
+  padding: 8px 12px;
+  text-align: center;
+  vertical-align: middle;
+  min-width: 70px;
+  font-family: monospace;
+  font-weight: bold;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  transition: background 0.4s, transform 0.3s;
+}
+
+.header-cell {
+  background-color: #1e3a8a;
+}
+
+/* Cores de feedback */
+.green {
+  background-color: #16a34a;
+  animation: pop 0.3s ease-in-out;
+}
+
+.red {
+  background-color: #dc2626;
+}
+
+.yellow {
+  background-color: #facc15;
+  color: black;
+}
+
+/* Imagem do personagem */
+.character-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* Mensagens */
+.message {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #facc15;
+  animation: bounce 0.5s;
+}
+
+/* =======================
+   Animações
+======================= */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
+@keyframes pop {
+  0% { transform: scale(0.5);}
+  50% { transform: scale(1.2);}
+  100% { transform: scale(1);}
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-10px);}
+  60% {transform: translateY(-5px);}
+}
