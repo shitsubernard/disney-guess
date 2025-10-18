@@ -184,7 +184,7 @@ const characters = [
     isVillain: false,
     firstAppearance: 2021,
     isHuman: true,
-    image: "https://static.wikia.nocookie.net/disney/images/3/33/Profile_-_Bruno_Madrigal.png/revision/latest?cb=20230109053845"
+    image: "bruno.jpg"
   },
   {
     name: "Tarzan",
@@ -220,5 +220,6 @@ const characters = [
     image: "https://static.wikia.nocookie.net/disney/images/e/e2/Clayton_profile_.jpg/revision/latest?cb=20160325111414"
   }
 ];
+
 
 
