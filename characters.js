@@ -8,7 +8,7 @@ const characters = [
     isVillain: false,
     firstAppearance: 1928,
     isHuman: false,
-    image: mickey.png
+    image: "mickey.png"
   },
   {
     name: "Minnie Mouse",
@@ -220,4 +220,5 @@ const characters = [
     image: "https://static.wikia.nocookie.net/disney/images/e/e2/Clayton_profile_.jpg/revision/latest?cb=20160325111414"
   }
 ];
+
 
