@@ -218,8 +218,240 @@ const characters = [
     firstAppearance: 1999,
     isHuman: true,
     image: "clayton.jpg"
+  },
+  {
+    name: "Tiana",
+    films: ["A Princesa e o Sapo"],
+    gender: "feminino",
+    sings: true,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 2009,
+    isHuman: true,
+    image: "tiana.jpeg"
+  },
+  {
+    name: "Príncipe Naveen",
+    films: ["A Princesa e o Sapo"],
+    gender: "masculino",
+    sings: true,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 2009,
+    isHuman: true,
+    image: "naveen.jpeg"
+  },
+  {
+    name: "Mogli",
+    films: ["Mogli: O Menino Lobo"],
+    gender: "masculino",
+    sings: false,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 1967,
+    isHuman: true,
+    image: "mogli.jpeg"
+  },
+  {
+    name: "Baloo",
+    films: ["Mogli: O Menino Lobo"],
+    gender: "masculino",
+    sings: true,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 1967,
+    isHuman: false,
+    image: "baloo.jpeg"
+  },
+  {
+    name: "Cinderela",
+    films: ["Cinderela"],
+    gender: "feminino",
+    sings: true,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 1950,
+    isHuman: true,
+    image: "cinderela.jpeg"
+  },
+  {
+    name: "Fada Madrinha",
+    films: ["Cinderela"],
+    gender: "feminino",
+    sings: false,
+    hasPowers: true,
+    isVillain: false,
+    firstAppearance: 1950,
+    isHuman: true,
+    image: "fada_madrinha.jpeg"
+  },
+  {
+    name: "Aladdin",
+    films: ["Aladdin"],
+    gender: "masculino",
+    sings: true,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 1992,
+    isHuman: true,
+    image: "aladdin.jpeg"
+  },
+  {
+    name: "Gênio",
+    films: ["Aladdin"],
+    gender: "masculino",
+    sings: true,
+    hasPowers: true,
+    isVillain: false,
+    firstAppearance: 1992,
+    isHuman: false,
+    image: "genio.jpeg"
+  },
+  {
+    name: "Branca de Neve",
+    films: ["Branca de Neve e os Sete Anões"],
+    gender: "feminino",
+    sings: true,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 1937,
+    isHuman: true,
+    image: "branca_de_neve.jpeg"
+  },
+  {
+    name: "Rainha Má",
+    films: ["Branca de Neve e os Sete Anões"],
+    gender: "feminino",
+    sings: false,
+    hasPowers: true,
+    isVillain: true,
+    firstAppearance: 1937,
+    isHuman: true,
+    image: "rainha_ma.jpeg"
+  },
+  {
+    name: "Quasímodo",
+    films: ["O Corcunda de Notre Dame"],
+    gender: "masculino",
+    sings: true,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 1996,
+    isHuman: true,
+    image: "quasimodo.jpeg"
+  },
+  {
+    name: "Esmeralda",
+    films: ["O Corcunda de Notre Dame"],
+    gender: "feminino",
+    sings: true,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 1996,
+    isHuman: true,
+    image: "esmeralda.jpeg"
+  },
+  {
+    name: "Bernardo",
+    films: ["Bernardo e Bianca"],
+    gender: "masculino",
+    sings: false,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 1977,
+    isHuman: false,
+    image: "bernardo.jpeg"
+  },
+  {
+    name: "Bianca",
+    films: ["Bernardo e Bianca"],
+    gender: "feminino",
+    sings: false,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 1977,
+    isHuman: false,
+    image: "bianca.jpeg"
+  },
+  {
+    name: "Tod",
+    films: ["O Cão e a Raposa"],
+    gender: "masculino",
+    sings: false,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 1981,
+    isHuman: false,
+    image: "tod.jpeg"
+  },
+  {
+    name: "Copper",
+    films: ["O Cão e a Raposa"],
+    gender: "masculino",
+    sings: false,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 1981,
+    isHuman: false,
+    image: "copper.jpeg"
+  },
+  {
+    name: "Pocahontas",
+    films: ["Pocahontas"],
+    gender: "feminino",
+    sings: true,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 1995,
+    isHuman: true,
+    image: "pocahontas.jpeg"
+  },
+  {
+    name: "John Smith",
+    films: ["Pocahontas"],
+    gender: "masculino",
+    sings: false,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 1995,
+    isHuman: true,
+    image: "john_smith.jpeg"
+  },
+  {
+    name: "Dumbo",
+    films: ["Dumbo"],
+    gender: "masculino",
+    sings: false,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 1941,
+    isHuman: false,
+    image: "dumbo.jpeg"
+  },
+  {
+    name: "Merlin",
+    films: ["A Espada Era a Lei"],
+    gender: "masculino",
+    sings: false,
+    hasPowers: true,
+    isVillain: false,
+    firstAppearance: 1963,
+    isHuman: true,
+    image: "merlin.jpeg"
+  },
+  {
+    name: "Pinóquio",
+    films: ["Pinóquio"],
+    gender: "masculino",
+    sings: true,
+    hasPowers: false,
+    isVillain: false,
+    firstAppearance: 1940,
+    isHuman: false,
+    image: "pinoquio.jpeg"
   }
 ];
+
 
 
 
